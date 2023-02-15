@@ -35,4 +35,4 @@ def pierwsze(a,b):
         i += 1
 
 #wywołanie funkcji
-pierwsze(2,100000)
+pierwsze(2,10000)
