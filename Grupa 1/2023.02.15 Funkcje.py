@@ -17,7 +17,7 @@ def sekwencja(a,b,c):
 
 def czyPierwsza(a):
     i=2
-    while i < a**0.5:
+    while i <= a**0.5:
         if a % i == 0:
             return False
         i+=1
