@@ -8,13 +8,24 @@ Hello("Jan") #argument aktualny o wartości "Jan"
 def Dodaj(a,b):
     return a+b #zwrócenie wartości
 
-w = Dodaj(4,5)
-print(w)
-
 def Dziel(a,b):
     if b != 0:
-        return a/b #funkcja może zwracać wartości różnego typu teraz liczba
+        return a/b #funkcja może zwracać wartości różnego typu np. liczbę
     else:
         return "Nie dziel przez zero!" #lub string
 
+def lista(a,b,c):
+    while a<b:
+        print(a,end=", ")
+        a+=c
+
+print(Dodaj(4,5))
 print(Dziel(3,0))
+lista(1,100,3)
+'''
+def pierwsze(a,b):
+    while a<b:
+        print(a,end=", ")
+        a+=1
+
+'''
