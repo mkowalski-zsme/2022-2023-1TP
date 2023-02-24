@@ -9,25 +9,43 @@ def czyPierwsza(liczba):
         i+=1
     return True
 
+'''
 i=2
 while True:
     if czyPierwsza(i):
         print(i)
     i+=1
+'''
+dane = [1,2,3,54,6,3,3,4,5]
 
 #1 Napisz funkcję, która zwraca sumę elementów listy (krotki)
 def Suma(lista):
     s = 0
-    #....
+    for el in lista:
+        s += el
     return s
 
+print(Suma(dane))
+
 #2 Napisz funkcję, która zwraca średnią elementów listy
+def Srednia(lista):
+    n = len(lista)
+    if n == 0:
+        return "NaN"
+    return Suma(lista)/n
+
+print(Srednia(dane))
 
 #3 Napisz funkcję, która zwraca pozycję elementu w liście
-def Szukaj(lista, element):
+def Szukaj(lista, szukany):
     p = 0
-    #....
-    return p
+    for el in lista:
+        if szukany == el:
+            return p
+        p+=1
+    return "Brak"
+
+print(Szukaj(dane,5))   
 
 #4 Napisz funkcję, która rozkłada liczbę na czynniki pierwsze w postaci:
 
@@ -39,8 +57,7 @@ def Faktoryzacja(liczba):
 #Sito Eratostenesa
 def Sito(zakres):
     #Funkcja wyświetla liczb pierwsze z zakresu
+    print()
 
 
 
-
-        
