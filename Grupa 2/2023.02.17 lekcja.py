@@ -22,10 +22,3 @@ def lista(a,b,c):
 print(Dodaj(4,5))
 print(Dziel(3,0))
 lista(1,100,3)
-'''
-def pierwsze(a,b):
-    while a<b:
-        print(a,end=", ")
-        a+=1
-
-'''
