@@ -9,7 +9,6 @@ def czyPierwsza(liczba):
         i+=1
     return True
     
-    
 '''
 i=2
 while True:
