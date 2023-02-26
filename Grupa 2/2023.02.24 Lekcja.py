@@ -8,6 +8,7 @@ def czyPierwsza(liczba):
             return False
         i+=1
     return True
+    
 
 '''
 i=2
