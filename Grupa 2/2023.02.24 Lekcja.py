@@ -60,6 +60,4 @@ def Faktoryzacja(liczba):
 def Sito(zakres):
     #Funkcja wyświetla liczb pierwsze z zakresu
     print()
-
-
-
+    
