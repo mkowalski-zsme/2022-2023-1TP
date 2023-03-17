@@ -34,7 +34,6 @@ f(20) -> [2,2,5]
 
 """
 
-
 #7. Napisz definicję funkcji liniowej spełniającej zależność: Y = a*X + b
 
 
