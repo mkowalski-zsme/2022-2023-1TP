@@ -33,3 +33,17 @@ f(13) -> [13]
 f(20) -> [2,2,5]
 
 """
+
+
+#7. Napisz definicję funkcji liniowej spełniającej zależność: Y = a*X + b
+
+
+def fun_lin(a: float,b: float,X: list) -> list:
+    pass
+
+X = list(range(-100,100))
+
+Y = fun_lin(2,3,X)
+
+#Narysuj wykres funkcji Y
+
