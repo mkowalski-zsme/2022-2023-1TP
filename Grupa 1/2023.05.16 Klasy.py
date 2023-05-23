@@ -30,13 +30,16 @@ osoba2 = Osoba("Adam", "Kowalski", 32)
 # osoba1.Print()
 # osoba2.Print()
 
-def Nwd(a,b):
-    while a != b:
-        if a>b: a-=b
-        else: b -= a
-    return a
+
 
 class Ulamek:
+
+    def Nwd(a,b):
+        while a != b:
+            if a>b: a-=b
+            else: b -= a
+        return a
+
     def __init__(self, licznik, mianownik):
         self.licznik = licznik
         if mianownik == 0:
@@ -52,7 +55,7 @@ class Ulamek:
         return self.licznik / self.mianownik
 
     def Normalizuj(self):
-        nwd = Nwd(self.licznik, self.mianownik)
+        nwd = Ulamek.Nwd(self.licznik, self.mianownik)
 
         self.licznik //= nwd
         self.mianownik //= nwd
